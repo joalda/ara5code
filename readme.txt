@@ -10,7 +10,7 @@ balloonthreshold.py:
     6) The function then returns this array of threshold times
     
 findruns.py:
-  This is a python script that finds the different runs where the balloon was close to ARA5. Here are the steps on what it does:
+  This is a python script that finds the different runs where the balloon was close to ARA5. It also makes a spectrogram. Here are the steps on what it does:
     1) It takes in a bunch of balloon tsv files
     2) For each balloon file, the balloonthreshold function is used to calculate the threshold times
     3) Then all the runs are looped over
